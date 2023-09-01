@@ -1,0 +1,25 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+.cátedra{
+    font-family:'Times New Roman', Times, serif;
+    color: #000;
+}
+.apuntes{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
