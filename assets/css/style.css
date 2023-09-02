@@ -1,26 +1,25 @@
-header{
-    font-family: 'Times New Roman', Times, serif;
-}
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    color: #000;
-}
-footer{
-    font-family: 'Times New Roman', Times, serif;
-}
-.cátedra{
+header, header a{
     font-family:'Times New Roman', Times, serif;
     color: #000;
 }
-.cátedra ol {
-    line-height: 1.75;
-  }
-.apuntes{
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
+footer, footer a{
+    font-family:'Times New Roman', Times, serif;
+    color: #000;
+}
+header ol{
+    line-height: 1.75;
+  }
 
-table {
+table{
     border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
 }
 
 td, th {
