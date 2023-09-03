@@ -34,7 +34,6 @@ td, th{
 .biblio a:hover {
     color: blueviolet;
 }
-td, th {
-    border: 1px solid black;
-    padding: 8px;
+.title{
+    text-align: center;
 }
