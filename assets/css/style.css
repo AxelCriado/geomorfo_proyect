@@ -5,6 +5,7 @@ header, header a{
 body, .informal{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    background-color: rgb(235, 235, 235);
 }
 .biblio a{
     font-family: 'Times New Roman', Times, serif;
