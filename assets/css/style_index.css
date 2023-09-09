@@ -10,7 +10,6 @@ header, header a{
 main, main a{
     font-family:'Times New Roman', Times, serif;
     color: #000;
-    line-height: 1.75;
 }
 footer, footer a{
     text-align: center;
@@ -22,5 +21,6 @@ main a:hover {
     color: blueviolet;
 }
 .lista{
-   margin: 2vh; 
+   margin: 2vh;
+   line-height: 2;
 }
