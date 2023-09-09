@@ -1,6 +1,7 @@
 body{
     background-color: rgb(235, 235, 235);
     margin: 1vh;
+    padding: 2vh;
 }
 
 header, header a{
