@@ -21,3 +21,6 @@ footer, footer a{
 main a:hover {
     color: blueviolet;
 }
+.lista{
+   margin: 2vh; 
+}
