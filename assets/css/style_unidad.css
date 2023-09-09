@@ -1,27 +1,37 @@
+@font-face {
+    font-family: "Domisc__";
+    src: url("../fonts/Domisc__.woff") format("woff");
+  }
+
+.title{
+    font-family:'Domisc__';
+}
+
 header, header a{
     font-family:'Times New Roman', Times, serif;
     color: #000;
     text-decoration: none;
 }
+
+.biblio a:hover {
+    color: blueviolet;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     background-color: rgb(235, 235, 235);
 }
+
 footer, footer a, .title{
     text-align: center;
     color: #000;
 }
-.biblio a:hover {
-    color: blueviolet;
-}
+
 table{
     border-collapse: collapse;
 }
-td, th{
-    border: 1px solid black;
-    padding: 8px;
-}
+
 td, th{
     border: 1px solid black;
     padding: 8px;
