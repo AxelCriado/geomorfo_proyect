@@ -1,7 +1,5 @@
 body{
     background-color: rgb(235, 235, 235);
-    margin: 1vh;
-    padding: 2vh;
 }
 
 header, header a{
@@ -9,6 +7,7 @@ header, header a{
     font-family:'Times New Roman', Times, serif;
     color: #000;
     text-decoration: none;
+    margin: 2vh;
 }
 main, main a{
     font-family:'Times New Roman', Times, serif;
