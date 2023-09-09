@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "Domisc__";
+    src: url("../fonts/Domisc__.woff") format("woff");
+  }
+
 body{
     background-color: rgb(235, 235, 235);
 }
 header, header a{
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Domisc__';
     color: #000;
     text-decoration: none;
 }
