@@ -7,13 +7,11 @@ header, header a{
     color: #000;
     text-decoration: none;
 }
-main{
-    margin: 20vh;
-}
 main, main a{
     font-family:'Times New Roman', Times, serif;
     color: #000;
     line-height: 1.75;
+    padding: 2vh;
 }
 footer, footer a{
     text-align: center;
