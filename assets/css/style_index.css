@@ -1,5 +1,6 @@
 body{
     background-color: rgb(235, 235, 235);
+    margin: 2vh;
 }
 header, header a{
     text-align: center;
@@ -11,7 +12,6 @@ main, main a{
     font-family:'Times New Roman', Times, serif;
     color: #000;
     line-height: 1.75;
-    padding: 2vh;
 }
 footer, footer a{
     text-align: center;
