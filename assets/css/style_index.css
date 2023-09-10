@@ -2,6 +2,10 @@
     font-family: "Domisc__";
     src: url("../fonts/Domisc__.woff") format("woff");
   }
+  @font-face {
+    font-family: "Axel";
+    src: url("../fonts/Axel.woff") format("woff");
+  }
 
 :root{
     --color-main: #000;
@@ -83,4 +87,10 @@ main a:hover {
     margin: 1 5px;
     font-size: 1.25em;
     transition: all 0.4s ease-in-out;
+  }
+
+  .firma{
+    font-size:0.5em;
+    text-align: right;
+    font-family: 'Axel';
   }
