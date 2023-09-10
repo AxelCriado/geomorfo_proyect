@@ -3,29 +3,35 @@
     src: url("../fonts/Domisc__.woff") format("woff");
   }
 
+  :root{
+    --color-main: #000;
+    --color-back: rgb(235, 235, 235);
+    --color-hover: blueviolet;
+}
+
 .title{
     font-family:'Domisc__';
 }
 
 header, header a{
     font-family:'Times New Roman', Times, serif;
-    color: #000;
+    color: var(--color-main);
     text-decoration: none;
 }
 
 .biblio a:hover {
-    color: blueviolet;
+    color: var(--color-hover);
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    background-color: rgb(235, 235, 235);
+    background-color: var(--color-back);
 }
 
 footer, footer a, .title{
     text-align: center;
-    color: #000;
+    color: var(--color-main);
 }
 
 table{
@@ -33,6 +39,54 @@ table{
 }
 
 td, th{
-    border: 1px solid black;
+    border: 1px solid var(--color-main);
     padding: 8px;
 }
+
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: var(--color-back);
+    color: var(--color-main);
+    border: none;
+    cursor: pointer;
+    margin: 1 5px;
+  font-size: 1.25em;
+  transition: all 0.4s ease-in-out
+  }
+  
+  button:hover {
+    background-color: gray;
+  }
+  
+  button:disabled {
+    background-color: var(--color-back);
+    cursor: not-allowed;
+  }
+  
+  button.button_2 {
+    padding: 10px 20px;
+    background-color: var(--color-back);
+    color: var(--color-main);
+    border: none;
+    cursor: pointer;
+    margin: 1 5px;
+    font-size: 1.25em;
+    transition: all 0.4s ease-in-out;
+  }
+
+  button.button_3 {
+    padding: 10px 20px;
+    background-color: var(--color-back);
+    color: var(--color-back);
+    border: none;
+    cursor: pointer;
+    margin: 1 5px;
+    font-size: 1.25em;
+    transition: all 0.4s ease-in-out;
+  }
